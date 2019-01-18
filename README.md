@@ -10,6 +10,8 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 ```bash
 $ chsh -s $(which zsh)
 $ vim .bashrc
+export SHELL=/bin/zsh
+exec /bin/zsh -l
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
