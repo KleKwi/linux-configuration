@@ -8,6 +8,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 ## 二、配置
 ```bash
+$ xgamma -gamma 0.5
 $ chsh -s $(which zsh)
 $ vim .bashrc
 export SHELL=/bin/zsh
