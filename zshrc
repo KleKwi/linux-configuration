@@ -68,7 +68,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(common-aliases git catimg command-not-found debian dirhistory history sudo systemd)
+plugins=(common-aliases git catimg command-not-found debian dirhistory history sudo systemd vi-mode)
 # common-aliases docker 
 
 source $ZSH/oh-my-zsh.sh
