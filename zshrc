@@ -113,3 +113,5 @@ alias less='less -X'
 alias ilkr='ssh root@dev.ilocker.build'
 
 PATH=$PATH:$HOME/bin
+
+alias sync='cp -r -u -v'
