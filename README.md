@@ -4,6 +4,7 @@
 ```bash
 $ sudo apt install python3 python3-dev python3-pip python3-setuptools python3-venv locales zsh thefuck
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# python virtualenvwrapper
 ```
 
 ## 二、配置

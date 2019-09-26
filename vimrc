@@ -1,5 +1,9 @@
 set nocompatible
 
+set fileencoding=utf-8
+set encoding=utf-8
+
+set wrap
 set number
 
 set showmode
@@ -8,7 +12,7 @@ set hlsearch
 
 set backspace=indent,eol,start
 
-set nowrap
+" set nowrap
 
 set mouse=c
 
@@ -19,8 +23,6 @@ set ruler
 set incsearch
 
 " set backup
-
-set visualbell
 
 set autoindent
 set tabstop=4

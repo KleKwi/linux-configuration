@@ -68,8 +68,9 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(common-aliases git catimg command-not-found debian dirhistory history sudo systemd vi-mode)
-# common-aliases docker 
+plugins=(debian common-aliases git catimg command-not-found dirhistory history sudo systemd)
+# vi-mode
+# common-aliases docker debian
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,14 +105,22 @@ compinit
 
 alias ws="cd ~/Workspace" 
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.7
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
-alias less='less -X'
+alias less="less -X"
 
-alias ilkr='ssh root@dev.ilocker.build'
+alias ilkr="ssh root@dev.ilocker.build"
 
-PATH=$PATH:$HOME/bin
+# PATH=$PATH:$HOME/bin
 
-alias sync='cp -r -u -v'
+alias ref_env="source ~/.zshrc"
+
+alias git_wkname="git config user.name cailin"
+alias git_wkemail="git config user.email cailin@tcxa.com.cn"
+alias waf76="ssh root@192.168.110.76 -p 60022"
+
+alias console="sudo minicom -b 115200 -D /dev/ttyUSB0"
+alias waf79="ssh root@192.168.110.79 -p 60022"
+alias esxi="ssh root@192.168.110.14"
