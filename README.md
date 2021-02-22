@@ -40,3 +40,9 @@ export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 ```
+
+## 三、ssh导入
+```bash
+ssh-keygen -t rsa -b 4096
+ssh-copy-id -i "$HOME/.ssh/id_rsa.pub" "cailin@192.168.120.219"
+```
